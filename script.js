@@ -29,3 +29,13 @@ switch (profession) {
         console.log("Sua camisa será por padrão PRETA");
         break;
 }
+
+
+
+function nomeCompleto(nome, sobrenome){
+    return `Meu nome completo é: ${nome} ${sobrenome}`;
+}
+
+let RetornoNomeCompleto = nomeCompleto("Jackson", "Medeiros");
+
+console.log(RetornoNomeCompleto);
